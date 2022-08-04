@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsividade.css">
+    <title>Mega Sena</title>
+</head>
+
+<body>
+
+    <header>
+
+
+        <h1> <img src="/img/trevo.png"> Mega Sena</h1>
+
+    </header>
+
+    <div id="numeros-megasena"></div>
+
+    <div id="botoesCentral">
+
+        <div id="botao-megasena"></div>
+        <div id="botaoLimpar">
+            <input class="limparHistorico" type="button" value="Limpar histórico"
+                onClick="document.location.reload(true), localStorage.clear();">
+        </div>
+
+    </div>
+
+    <div id="jogo-megasena"></div>
+
+    <script src="/ms.js"></script>
+
+</body>
+
+</html>

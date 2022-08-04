@@ -1,0 +1,93 @@
+body {
+    padding: 10px;
+    background: rgba(148, 170, 159, 0.384);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(69, 69, 69);
+}
+
+img {
+    width: 25px;
+}
+
+button {
+    cursor: pointer;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.174);
+}
+
+#botoesCentral {
+    margin: auto;
+    width: 500px;
+}
+
+#botao-megasena {
+    text-align: center;
+}
+
+#jogo-megasena {
+    margin-top: -130px;
+    margin-left: 65px;
+    background: #fefefe91;
+    height: 130px;
+    width: 260px;
+    overflow: scroll;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: monospace;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.174);
+
+}
+
+.numeros {
+    padding: 25px;
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.numero {
+    background: rgb(225, 225, 225);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.416);
+    width: 30px;
+    border-radius: 20%;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.numero:hover {
+    background-color: rgba(47, 255, 120, 0.461);
+    font-weight: bold;
+    border-color: white;
+}
+
+.selecionar-numero {
+    background-color: rgba(47, 255, 120, 0.461);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+#botaoLimpar {
+    text-align: center;
+}
+
+.limparHistorico {
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.174);
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width: 1120px) {
+    #jogo-megasena {
+        position: relative;
+        margin: auto auto;
+        margin-top: 20px;
+    }
+}
